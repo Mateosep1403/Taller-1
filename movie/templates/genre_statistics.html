@@ -1,0 +1,10 @@
+<!-- En movie/templates/genre_statistics.html -->
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="container">
+    <h3>Movies per Genre chart</h3>
+    <img src="data:image/png;base64,{{ graphic }}" alt="Movies per genre chart">
+</div>
+
+{% endblock content %}
